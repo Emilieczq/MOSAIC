@@ -12,58 +12,24 @@ $(document).ready(function() {
             eventLimit: true, // allow "more" link when too many events
             events: [
                 {
-                    title: 'All Day Event',
-                    start: '2018-12-01'
+                    title: 'SFWRENG 3GC3 C01 - Computer Graphics',
+                    start: '2018-11-05T09:30:00',
+                    end: '2018-11-05T11:20:00'
                 },
                 {
-                    title: 'Long Event',
-                    start: '2018-12-07',
-                    end: '2018-12-10'
+                    title: 'SFWRENG 4HC3 C01 - Human Computer Interfaces',
+                    start: '2018-11-05T16:30:00',
+                    end: '2018-11-05T17:20:00'
                 },
                 {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: '2018-12-09T16:00:00'
+                    title: 'COMPSCI 3IS3 C01 - Information Security',
+                    start: '2018-11-22T10:30:00',
+                    end: '2018-11-22T12:30:00'
                 },
                 {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: '2018-12-16T16:00:00'
-                },
-                {
-                    title: 'Conference',
-                    start: '2018-12-11',
-                    end: '2018-12-13'
-                },
-                {
-                    title: 'Meeting',
-                    start: '2018-12-12T10:30:00',
-                    end: '2018-12-12T12:30:00'
-                },
-                {
-                    title: 'Lunch',
-                    start: '2018-12-12T12:00:00'
-                },
-                {
-                    title: 'Meeting',
-                    start: '2018-12-12T14:30:00'
-                },
-                {
-                    title: 'Happy Hour',
-                    start: '2018-12-12T17:30:00'
-                },
-                {
-                    title: 'Dinner',
-                    start: '2018-12-12T20:00:00'
-                },
-                {
-                    title: 'Birthday Party',
-                    start: '2018-12-13T07:00:00'
-                },
-                {
-                    title: 'Click for Google',
-                    url: 'https://google.com/',
-                    start: '2018-12-28'
+                    title: 'SFWRENG 4TE3 C01 - Cont. Optimization Algorithms',
+                    start: '2018-11-12T10:30:00',
+                    end: '2018-11-12T12:30:00'
                 }
             ]
         });
