@@ -12,3 +12,8 @@
     text-align: center;
     font-weight: 700;
 }
+
+.fc-day-grid-event .fc-content
+{
+	white-space: normal !important;
+}
