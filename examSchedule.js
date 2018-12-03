@@ -12,22 +12,22 @@ $(document).ready(function() {
             eventLimit: true, // allow "more" link when too many events
             events: [
                 {
-                    id: 1;
+                    id: 1,
                     title: 'SFWRENG 4HC3-C01(12181)',
                     start: '2018-12-11T09:00:00'
                 },
                 {
-                    id: 2;
+                    id: 2,
                     title: 'SFWRENG 4TE3-C01(12259)',
                     start: '2018-12-12T09:00:00'
                 },
                 {
-                    id: 3;
+                    id: 3,
                     title: 'SFWRENG 3GC3-C01(12005)',
                     start: '2018-12-15T16:00:00'
                 },
                 {
-                    id: 4;
+                    id: 4,
                     title: 'COMPSCI 3IS3-C01(12387)',
                     start: '2018-12-17T12:30:00'
                 }
