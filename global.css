@@ -1,15 +1,46 @@
+body
+{
+    background: url(login.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .space-100
 {
-	height: 200px;
+    height: 100px;
+}
+
+.space-200
+{
+    height: 200px;
+    border-bottom: 10px solid #990033;
 }
 
 .btn-custom
 {
-	color: #fff;
-	background-color:#990033;
+    color: #fff;
+    background-color:#990033;
 }
 
 .logo
 {
-	width: 100px;
+    height: 100px;
+    background-color: #990033;
+}
+
+.blur-background
+{
+    background-color: #ffffffcc;
+}
+
+.container-custom
+{
+    height: calc(100vh - 300px);
+}
+
+.student-name-number
+{
+    font-size: 20px;
 }
