@@ -19,7 +19,6 @@
 .btn-big:hover
 {
     background-color: #990033cc;
-    /*color: #990033;*/
 }
 
 @media only screen and (max-width: 767px)
