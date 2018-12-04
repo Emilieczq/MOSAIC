@@ -23,6 +23,8 @@
     background-color: #990033;
 }
 
+
+
 .space-100
 {
     height: 100px;
@@ -33,11 +35,31 @@
     height: 250px;
     border-bottom: 10px solid #990033;
 }
-
+.space-200
+{
+    height: 200px;
+}
+.space-5
+{
+    height: 10px;
+}
+.space-30
+{
+    height: 30px;
+}
 .btn-custom
 {
     color: #fff;
     background-color:#990033;
+}
+.btn-back
+{
+    color: #fff;
+    background-color:#990033;
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    width: 80px;
 }
 
 .logo
@@ -51,17 +73,61 @@
     height: 50px;
 }
 
-.icon-home
+.icons-menu
 {
     height: 50px;
-    width: 50px;
-    font-size: 30px;
     color: #fff;
     margin-top: 5px;
     margin-right: 10px;
     text-align: center;
     cursor: pointer;
 }
+.icons-menu .fa
+{
+    font-size: 30px;
+}
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover
+{
+    background-color: #ddd;
+    color: #990033;
+    text-decoration: none;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 .blur-background
 {
@@ -73,8 +139,50 @@
     height: calc(100vh - 300px);
 }
 
+.container-custom1
+{
+    width: 90% !important;
+}
+
 .student-name-number
 {
     font-size: 20px;
 }
-
+.btn-big-custom
+{
+    height: 100%;
+    width: 100%;
+    font-size: xx-large !important;
+    border-radius: 10px !important;
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    text-align: left !important;
+}
+.btn-big-custom:hover
+{
+    background-color: #990033cc;
+    /*color: #990033;*/
+}
+.container .radio-custom {
+    position: relative;
+    height: 25px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-custom1
+{
+    color: #fff;
+    font-size: 1.3vw !important;
+    background-color:#990033;
+}
+.row-nopadding{
+    padding: 0px 0px;
+}
+.btn-med, .btn-group-med > .btn {
+  padding: 0.375rem 0.95rem;
+  font-size: 1.3925rem !important;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}

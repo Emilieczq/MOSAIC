@@ -13,16 +13,26 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="classSchedule.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
     <div class="header">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
-        <script src="classSchedule.js"></script>
         <img class="logo-small" src="logo.png">
-        <div class="float-right icon-home" onclick="location.href = 'index.html';">
-           <i class="fa fa-home"></i>
-       </div>
+         <div class="icons-menu float-right mt-3">
+             <i class="fa fa-home mr-3 d-inline-block" onclick="location.href = 'home.html';"></i>
+             <div class="dropdown d-inline-block">
+                 <i class="dropbtn fa fa-bars mr-3" onclick="showMenu()"></i>
+                 <div class="dropdown-content" id="menu">
+                    <a href="enrollment_semester.html">Enrollment</a>
+                    <a href="schedules.html">Schedules</a>
+                    <a href="index.html">Sign out</a>
+                 </div>
+             </div>
+         </div>
     </div>
 
     <div class="student-name-number">
@@ -30,6 +40,9 @@
         <span class="float-right mr-3">400000001</span>
     </div>
 
+    <div class="back" onclick="location.href = 'schedules.html';">
+        <button class="btn btn-back">Back</button>
+    </div>
     <div class="scheduleTitle">
         <span>Class Schedule</span>
     </div>
