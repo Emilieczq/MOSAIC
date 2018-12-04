@@ -14,8 +14,16 @@
     <script src="home.js"></script>
     <div class="header">
         <img class="logo-small" src="logo.png">
-         <div class="float-right icon-home" onclick="location.href = 'index.html'">
-             <i class="fa fa-home"></i>
+         <div class="icons-menu float-right mt-3">
+             <i class="fa fa-home mr-3 d-inline-block" onclick="location.href = 'home.html';"></i>
+             <div class="dropdown d-inline-block">
+                 <i class="dropbtn fa fa-bars mr-3" onclick="showMenu()"></i>
+                 <div class="dropdown-content" id="menu">
+                    <a href="enrollment_semester.html">Enrollment</a>
+                    <a href="schedules.html">Schedules</a>
+                    <a href="index.html">Sign out</a>
+                 </div>
+             </div>
          </div>
     </div>
     <div class="blur-background">
